@@ -1,0 +1,12 @@
+{
+	"name": "activityfeed",
+	"description": "Activity Feed",
+	"homepage": "",
+	"author": "Mike Kornelson <mike@koretech.ca>",
+	"version": "0.1.0",
+	"git": "",
+	"packages": {},
+	"bower": {
+		"moment": "2.8.3"
+	}
+}
