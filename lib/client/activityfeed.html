@@ -1,7 +1,6 @@
 <template name="activityFeed">
-	<h4>Feed</h4>
-	<div class="ui small piled feed segment">
-		<h2 class="ui header">Recent Activity</h2>
+	<div class="ui {{classes}} feed">
+		{{> UI.dynamic template=headerTemplate}}
 		{{#each events}}
 			{{> activityFeed_event}}
 		{{/each}}
